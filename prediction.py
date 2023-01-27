@@ -57,7 +57,7 @@ def prediction(batch_size, images_directory, annotations_path):
     # Experimentally, using batch stats makes the network perform better during inference.
 
     print("Loading pretrained model")
-    model.load_state_dict(torch.load("./trained_weights/polyworld_backbone"))
+    model.load_state_dict(torch.load("./trained_weights/polyworld_backbone")
     head_ver.load_state_dict(torch.load("./trained_weights/polyworld_seg_head"))
     matching.load_state_dict(torch.load("./trained_weights/polyworld_matching"))
 
