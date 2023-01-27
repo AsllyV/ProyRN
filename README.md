@@ -1,9 +1,4 @@
 
-<img src="assets/logo.png" width="350">
-
-
-### Research @ TUGraz & BlackShark.ai (CVPR 2022)
-
 # PolyWorld Inference and Evaluation Code
 
 PolyWorld is a research project conducted by the Institute of Computer Graphics and Vision of TUGraz, in collaboration with BlackShark.ai. PolyWorld is a neural network that extracts polygonal objects from an image in an end-to-end fashion. The model detects vertex candidates and predicts the connection strenght between each pair of vertices using a Graph Neural Network. This repo includes inference code and pretrained weights for evaluating PolyWorld on the CrowdAI Mapping Challenge dataset.
